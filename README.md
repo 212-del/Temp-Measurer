@@ -95,3 +95,10 @@ That tells you:
 
 the hwmon sensor belongs to the coretemp platform driver.
 
+by doing the command 'modinfo coretemp'
+
+I was being able to get the file of kernal driver that is at the location
+
+'/lib/modules/6.18.12+kali-amd64/kernel/drivers/hwmon/coretemp.ko.xz'
+
+In my case.
